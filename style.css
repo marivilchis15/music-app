@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #14621C;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  input, button {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  button{
+    color: chartreuse;
+    background-color: brown;
+  }
+  profile-link{
+    color: aliceblue;
+  }
+  img{
+width: 5;
+height: 5;
+  }
+  .login-button{
+    color: #000;
+    background-color: rgb(255, 240, 240);
+    align-items: center;
+
+  }

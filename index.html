@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music App</title>
+
+  <link rel="stylesheet" href="style.css">
+  <!-- Agrega esto en la sección head de tu archivo HTML -->
+<script src="https://sdk.scdn.co/spotify-player.js"></script>
+
+</head>
+<body>
+  <header>
+    <h1>Music App</h1>
+  
+    <a href="https://open.spotify.com/user/31v26zjxx2wj4j7hq7dpk3cmvi2q"><img src="maria.jpg" width="100" height="180"></a> <!-- Agregado: Enlace a tu perfil -->
+    <a href="https://open.spotify.com/user/3147ajeoltl76ulfq4k2pxuzysj4"> <img src="leo.jpg" width="100" height="180"></a> <!-- Agregado: Enlace a tu perfil -->
+   <a href="https://open.spotify.com/user/31v26zjxx2wj4j7hq7dpk3cmvi2q"> <img src="jos.jpg" width="100" height="180"></a> <!-- Agregado: Enlace a tu perfil -->
+    <a href="https://open.spotify.com/user/31v26zjxx2wj4j7hq7dpk3cmvi2q"><img src="omar.jpg" width="100" height="180"> </a> <!-- Agregado: Enlace a tu perfil -->
+  </header>
+  
+
+  <main>
+    <section id="search-section">
+      <h2>BUSCAR ARTISTA</h2>
+      <input type="text" id="search-input" placeholder="Enter artist or track">
+      <button onclick="searchSpotify()">BUSCAR</button>
+    </section>
+
+    <section id="results-section">
+      <h2>RESULTADOS</h2>
+      <ul id="results-list"></ul>
+    </section>
+
+  </main>
+  <button id="login-button" onclick="authorizeSpotify()">INCIA SECCION</button>
+  <script src="script.js"></script>
+  
+</body>
+</html>
